@@ -8,8 +8,8 @@ Installation
     ex: php db/migration.php
     
 3. generate ticket, dengan memanggil file generateTicket.php menggunakan php-cli
-    ex : php generate-ticket.php {event_id} {total_ticket}
-         php generate-ticket.php 3 1000
+    ex : php generateTicket.php {event_id} {total_ticket}
+         php generateTicket.php 3 1000
          
 4. jalankan api pada folder root project
     ex :  php -S localhost:8000 

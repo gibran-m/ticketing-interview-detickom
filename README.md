@@ -15,18 +15,23 @@ Installation
     ex :  php -S localhost:8000 
 
 5. untuk memanggil api cekStatus : {{url}}/api/cekStatus.php 
-  type request body : json
-  ex :
-  {
-    "event_id" : "3",
-    "ticket_code" : "DTK1r178QV"
-  }
+    -type request body : json
+        ex :
+        {
+            "event_id" : "3",
+            "ticket_code" : "DTK1r178QV"
+        }
+    
+    -authorization : bearer token
+   
   
  5. untuk memanggil api updateStatus : {{url}}/api/updateStatus.php 
-  type request body : json
-  ex :
-  {
-      "event_id" : "3",
-      "ticket_code" : "DTK1r178QV",
-      "status" : "claimed"
-  }
+    -type request body : json
+        ex :
+        {
+            "event_id" : "3",
+            "ticket_code" : "DTK1r178QV",
+            "status" : "claimed"
+        }
+
+    -authorization : bearer token

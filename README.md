@@ -2,7 +2,7 @@
 
 Installation
 
-1. setting Konfigurasi Database (server, username, password, database name) pada file db/config.php
+1. setting konfigurasi (servername, username, password, database name, token) pada file db/config.php
 
 2. jalankan migration database, dengan memanggil file migration menggunakan php-cli
     ex: php db/migration.php
